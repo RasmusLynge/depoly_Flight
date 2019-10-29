@@ -1,4 +1,4 @@
-## 3. Semester projekt - Momondo lookalike (REST
+## 3. Semester projekt - Momondo lookalike (SPA /REST)
 
 Her er vores projekt fra 3. semester.
 
