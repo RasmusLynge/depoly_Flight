@@ -8,7 +8,7 @@ Her er vores projekt fra 3. semester.
 
 ### Om projektet:
 
-- Man kan som bruger af siden søge efter lande og finde flyrejser
+- Man kan som bruger af siden søge efter lande og finde flyrejser (lande man kan søge på: Denmark, Sweden, Finland, Norway)
 - Man kan logge ind som bruger (username: user, password: userpw)
 - Brugere kan tilføje fly til ønskeliste (hjertet) og se dem under ders wishlist 
 - Vi arbejde sammen med en ande gruppe, som lavede et event API med events i europa. ud fra geodata kan man finde events i nærheden af sin destination.
