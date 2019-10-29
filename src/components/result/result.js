@@ -148,7 +148,7 @@ class Result extends Component {
       typeof this.state.flightData === "undefined" ||
       this.state.flightData === null
     ) {
-      console.log("ERRORORO");
+      //console.log("ERRORORO");
     } else if (this.state.flightData.length > 0) {
       if (evt.target.value === "price") {
         let flightsSort = this.state.flightData.sort((a, b) =>
@@ -235,7 +235,7 @@ class Result extends Component {
       typeof this.state.flightData === "undefined" ||
       this.state.flightData === null
     ) {
-      console.log("ERRORORO");
+      //console.log("ERRORORO");
     } else if (this.state.flightData.length > 0) {
       let currentSort = this.state.flightData;
       let reverseSort = currentSort.reverse();

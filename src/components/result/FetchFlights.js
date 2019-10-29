@@ -1,4 +1,4 @@
-const flightURL = "https://rasmuslynge.com/Flights-1.0/api/flight";
+const flightURL = "https://rasmuslynge.com/FlightBackendParalel/api/info";
 const userURL = "https://rasmuslynge.com/jwtbackend/api";
 
 function handleHttpErrors(res) {
@@ -11,7 +11,6 @@ function handleHttpErrors(res) {
 class flightFetch {
   fetchData = async url => {
     const options = await this.makeOptions("GET");
-    console.log(flightURL + url)
     return fetch(flightURL + url, options).then(handleHttpErrors);
   };
 
@@ -41,7 +40,6 @@ class flightFetch {
         "x-access-token": localStorage.getItem("jwtToken")
       }
     };
-    console.log(opts);
     if (body) {
       opts.body = JSON.stringify(body);
     }
@@ -57,7 +55,6 @@ class flightFetch {
         Accept: "application/json"
       }
     };
-    console.log(opts)
     return opts;
   }
 }

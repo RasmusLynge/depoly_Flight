@@ -54,7 +54,7 @@ class Search extends Component {
     handleClick = async (e) => {
         e.preventDefault()
         await this.fetchFlights()
-        console.log(this.state.flightData)
+        //console.log(this.state.flightData)
         this.props.startSearch(this.state)
         if(this.state.destination.length > 1 && this.state.departure.length > 1) {
             this.props.history.push(`${process.env.PUBLIC_URL}/flight/${this.state.departure}`)

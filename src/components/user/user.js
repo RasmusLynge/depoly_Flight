@@ -26,7 +26,7 @@ class User extends Component {
 
   fetchFlights = async () => {
     let wishes = await FetchWishes.fetchData();
-    console.log(wishes);
+    //console.log(wishes);
     this.setState({ flightData: wishes });
   };
 
@@ -105,7 +105,7 @@ class User extends Component {
       typeof this.state.flightData === "undefined" ||
       this.state.flightData === null
     ) {
-      console.log("ERRORORO");
+      //console.log("ERRORORO");
     } else if (this.state.flightData.length > 0) {
       if (evt.target.value === "price") {
         let flightsSort = this.state.flightData.sort((a, b) =>
@@ -191,7 +191,7 @@ class User extends Component {
       typeof this.state.flightData === "undefined" ||
       this.state.flightData === null
     ) {
-      console.log("ERRORORO");
+      //console.log("ERRORORO");
     } else if (this.state.flightData.length > 0) {
       let currentSort = this.state.flightData;
       let reverseSort = currentSort.reverse();
