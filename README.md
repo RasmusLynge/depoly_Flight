@@ -14,7 +14,7 @@ Her er vores projekt fra 3. semester.
 - Vi arbejdede sammen med en anden gruppe, som lavede et event API med events i Europa. Ud fra geodata kan man finde events i nærheden af sin destination.
 - Frontend design (CSS mm.) blev outsourcet igennem upWork ellers er resten lavet af medlemmerne af de forskellige repositories  
 - Projektet er ikke ment til produktion, men skal ses som "proof of concept" over hvad vi har lært gennem 3. semester.
-- Projektet blev brugt til systemudviklingseksamen, med fokus på udviklingsmetoder frem for fokus på god kode.
+- Projektet blev brugt til systemudviklingseksamen, med fokus på udviklingsmetoder.
 
 Vores oprindelige repositories er her: 
 
